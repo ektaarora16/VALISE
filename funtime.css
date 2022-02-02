@@ -1,0 +1,56 @@
+*{
+    background-color: #07252d;
+}
+ .heading{
+    
+    position: relative;
+    font-family:cursive;
+    margin-top: 2rem;
+    margin-left: 7rem;
+    font-size: 9em;
+   letter-spacing: 2px;
+   color:pink;
+   text-shadow: 
+  0px 0px 1px rgb(167,167,167),
+  0px 1px 1px rgb(167,167,167),
+  0px 2px 1px rgb(167,167,167),
+  1px 1px 1px rgb(167,167,167),
+  1px 2px 1px rgb(167,167,167),
+  1px 3px 1px rgb(167,167,167),
+  2px 2px 1px rgb(167,167,167),
+  2px 3px 1px rgb(167,167,167),
+  2px 4px 1px rgb(167,167,167),
+  1px 10px 30px rgba(0,0,0,0.8),
+  1px 10px 70px rgba(0,0,0,0.8),
+
+  0px 5px 5px rgba(0,0,0,0.8),
+
+ -5px 5px 20px rgba(0,0,0,0.8),
+
+ 5px 5px 20px rgba(0,0,0,0.8),
+ 
+ 0px 0px 100px rgba(11,124,199,0.5);
+     
+}
+
+h3{
+   margin-left: 7rem;
+   font-size: 2em;
+   margin-top: -80px;
+   letter-spacing: 2px;
+   font-family: cursive;
+   color:pink;
+  
+}
+.discord{
+    position:absolute;
+    border-radius: 20%;
+    border-color:black;
+    margin-bottom: 10px;
+    bottom: 0;
+
+}
+.Discordd{
+    margin-top: 10rem;
+    margin-left: 5rem;
+}
