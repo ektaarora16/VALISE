@@ -1,7 +1,7 @@
 
 *{
    box-sizing: border-box;
-   cursor: crosshair;
+   cursor: url(myBall.cur),auto;
    background-color:lightslategrey;
 }
 h1 {
@@ -11,8 +11,8 @@ h1 {
     text-align:center;
     top: 30%;
     left: 30%;
-    color: #231F20;
-    text-shadow: 2px whitesmoke;
+    color: black;
+    text-shadow: 2px black;
      
 }
 #MyDiv {
@@ -24,8 +24,10 @@ h1 {
 
 .center {
     display: flex;
-   margin: 28rem;
+    margin-left: 34rem;
    transition: 2ms;
+   margin-top: 450px;
+   
    
 }
 .outer button  {
@@ -34,14 +36,36 @@ h1 {
     padding: 10px;
     margin: 0 30px;    
     height: 40px;
-    background-color: bisque;
+    background-color: #231F20;
     cursor: pointer;
     transition-duration: 0.5s;
-    color:black;
+    color:white;
+     border: 1px solid black;
+    padding: 10px;
+    box-shadow: 5px 5px #231F20;
+    margin-top: -1000px;
     
 }   
 .outer button:hover {
     box-shadow: 0 12px 16px 0 #231F20,0 17px 50px 0 #231F20;
+  }
+  h3{
+    margin-left: 7.5rem;
+    margin-top: -50px;
+    font-size: 25px;
+    font-family: cursive;
+  }
+  img{
+    border-radius: 50%;
+    width: 70px;
+    margin-left: 30px;
+    margin-top: 30px;
+    
+  }
+  .outer button a{
+      text-decoration: none;
+      background-color: #231F20;
+      color: white;
   }
 
     
